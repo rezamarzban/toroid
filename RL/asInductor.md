@@ -27,9 +27,7 @@ $$
 This derivative reflects the exponential decay of current in an RL circuit, consistent with solving the differential equation $L \frac{di}{dt} + Ri = 0$.
 
 2. **Substitute $\frac{di}{dt}$ into $V_{\text{spike}}$:**  
-$$
-V_{\text{spike}} = -L \left( -\frac{R}{L} I_0 e^{-\frac{R}{L}t} \right) = R I_0 e^{-\frac{R}{L}t}.
-$$
+$$V_{\text{spike}} = -L \left( -\frac{R}{L} I_0 e^{-\frac{R}{L}t} \right) = R I_0 e^{-\frac{R}{L}t}.$$
 The negative sign in $V_{\text{spike}}$ accounts for the inductor’s back EMF opposing the change in current, resulting in a positive voltage spike during discharge.
 
 3. **Interpretation of the result:**  
